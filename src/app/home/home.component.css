@@ -1,0 +1,42 @@
+.home-container {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 20px;
+}
+
+header {
+    background-color: #f8f9fa;
+    padding: 20px;
+    border-bottom: 1px solid #dee2e6;
+}
+
+main {
+    margin-top: 20px;
+}
+
+.thought-of-the-day {
+    margin-bottom: 20px;
+}
+
+blockquote {
+    font-style: italic;
+    color: #6c757d;
+}
+
+.features ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.features li {
+    background-color: #e9ecef;
+    margin: 5px 0;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+footer {
+    margin-top: 20px;
+    font-size: 0.9em;
+    color: #6c757d;
+}

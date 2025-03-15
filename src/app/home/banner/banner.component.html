@@ -1,0 +1,10 @@
+<div class="home-page-banner">
+    <div class="home-page-banner-slogan">
+        <h1>Learn coding in easy step by step</h1>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eos, cupiditate? Molestiae non ipsum debitis ab esse, at accusamus quidem deserunt sapiente adipisci dicta, nesciunt atque obcaecati, voluptas quis ex incidunt.</p>
+    </div>
+    <div class="home-page-banner-search">
+        <input type="text" class="search-input" placeholder="seach courses" #searchVar>
+        <button class="search-button" [routerLink]="'/courses'" (click)="onSearchClicked(searchVar.value)">Seach Courses</button>
+    </div>
+</div>
